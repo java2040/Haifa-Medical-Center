@@ -1,0 +1,93 @@
+body {
+  font-family: Georgia, serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0; /* Remove padding to allow nav and footer to span full width */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh; /* Ensure body spans full viewport height */
+}
+
+h1 {
+  font-family: Georgia, serif;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.staff-container {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 80%;
+  max-width: 800px;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.staff-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.staff-info {
+  flex: 1;
+}
+
+.staff-name {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0;
+}
+
+.staff-description {
+  font-size: 1em;
+  color: #333;
+  margin-top: 10px;
+}
+
+.final-words {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 1.2em;
+  color: #555;
+}
+
+nav {
+  background-color: #004080;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  width: 100%; /* Span full width */
+  box-sizing: border-box; /* Ensure padding doesn't increase width */
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #004080;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  width: 100%; /* Span full width */
+  margin-top: auto; /* Push footer to bottom of flex container */
+  box-sizing: border-box; /* Ensure padding doesn't increase width */
+}
+
+footer p {
+  margin: 5px;
+}
