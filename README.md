@@ -66,6 +66,8 @@ Please report any issues or suggest features via the GitHub Issues page.
 License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
+
 Contact
 
 For questions or feedback, please contact java87.2023@gmail.com.
+
