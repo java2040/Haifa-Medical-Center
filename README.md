@@ -26,6 +26,7 @@ and press enter to open the home page.
 
 
 IPv4 and IPv6 Support
+
 The server is configured to bind to all available IPv6 interfaces by default. If you prefer to use IPv4, modify the Main.java file by uncommenting the IPv4 line and commenting out the IPv6 line, like this:
 
 try ( ServerSocket serverSocket = new ServerSocket(PORT, 0, InetAddress.getByName("0.0.0.0")) ) {
@@ -70,4 +71,5 @@ This project is licensed under the MIT License. See the LICENSE file for details
 Contact
 
 For questions or feedback, please contact java87.2023@gmail.com.
+
 
