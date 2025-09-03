@@ -1,13 +1,17 @@
-Haifa Medical Center - A Simple Inplementation of a Java Web Server.
+Haifa Medical Center - A Web Application for a Medical Center.
 
-This is a basic web server implemented in Java that serves static files such as HTML, CSS, JavaScript, and images. It listens on port 80 (HTTP) and handles GET requests. The server is multi-threaded, allowing it to handle multiple client connections concurrently.
+This is a web app with backend and frontend implemented in Java that serves static files such as HTML, CSS, JavaScript, and images. It listens on port 80 (HTTP) and handles HTTP requests. The server is multi-threaded, allowing it to handle multiple client connections concurrently.
+
 Setup and Running
+-----------------
 
 Prerequisites: Ensure you have at least Java SE 8.0 installed on your system. You can download it from Oracle's website.
 
 Directory Structure: Place your static web files (e.g., index.html, styles.css, script.js, images) in a directory named webroot within the project root.
 
-Compilation: Compile the Java source files using a Java compiler. For example:
+Compilation: Compile the Java source files using a Java compiler. 
+
+For example:
 javac org/haifamedicalcenter/Main.java org/haifamedicalcenter/ClientHandler.java
 
 
@@ -71,5 +75,6 @@ This project is licensed under the MIT License. See the LICENSE file for details
 Contact
 
 For questions or feedback, please contact java87.2023@gmail.com.
+
 
 
