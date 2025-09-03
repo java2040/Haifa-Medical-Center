@@ -1,4 +1,6 @@
 Haifa Medical Center - A Web Application for a Medical Center.
+--------------------------------------------------------------
+
 
 This is a web app with backend and frontend implemented in Java that serves static files such as HTML, CSS, JavaScript, and images. It listens on port 80 (HTTP) and handles HTTP requests. The server is multi-threaded, allowing it to handle multiple client connections concurrently.
 
@@ -75,6 +77,7 @@ This project is licensed under the MIT License. See the LICENSE file for details
 Contact
 
 For questions or feedback, please contact java87.2023@gmail.com.
+
 
 
 
